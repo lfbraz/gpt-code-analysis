@@ -35,7 +35,7 @@ OPENAI_ADA_EMBEDDING_DEPLOYMENT_NAME=<YOUR-AZURE-OPENAI-ADA-EMBEDDING-DEPLOYMENT
 OPENAI_ADA_EMBEDDING_MODEL_NAME=<YOUR-AZURE-OPENAI-ADA-EMBEDDING-MODEL>
 ```
 
-*You can rename the `.env.sample` to `'.env` as well. Replace the values with your own data.*
+*You can rename the `.env.sample` to `.env` as well. Replace the values with your own data.*
 
 ## Quick Start
 
