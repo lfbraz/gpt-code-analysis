@@ -15,14 +15,15 @@ Below we will see how to use it to build a simple code analysis assistant.
 - Python 3.11
 
 ## Install Required Libraries
-``python
+```python
 pip install langchain
 pip install azure-search-documents==11.4.0b6
 pip install python-dotenv
-``
+```
+ 
 
 ## Create .env file
-`` 
+```
 OPENAI_API_BASE=<YOUR-AZURE-OPENAI-ENDPOINT>
 OPENAI_API_KEY=<YOUR-AZURE-OPENAI-KEY>
 OPENAI_API_VERSION=<YOUR-AZURE-OPENAI-API-VERSION>
@@ -31,7 +32,8 @@ AZURE_COGNITIVE_SEARCH_API_KEY=<YOUR-COG-SEARCH-KEY>
 AZURE_COGNITIVE_SEARCH_INDEX_NAME=<YOUR-COG-SEARCH-INDEX-NAME>
 AZURE_COGNITIVE_SEARCH_ENDPOINT=<YOUR-COG-SEARCH-ENDPOINT>
 OPENAI_ADA_EMBEDDING_DEPLOYMENT_NAME=<YOUR-AZURE-OPENAI-ADA-EMBEDDING-DEPLOYMENT>
-OPENAI_ADA_EMBEDDING_MODEL_NAME=<YOUR-AZURE-OPENAI-ADA-EMBEDDING-MODEL> ``
+OPENAI_ADA_EMBEDDING_MODEL_NAME=<YOUR-AZURE-OPENAI-ADA-EMBEDDING-MODEL>
+```
 
 *You can rename the `.env.sample` to `'.env` as well. Replace the values with your own data.*
 
